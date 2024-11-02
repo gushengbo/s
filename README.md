@@ -1,4 +1,4 @@
- 1. 创建环境,记得用cuda10.0版本
+#创建环境,记得用cuda10.0版本
   
     conda create -n yourname python=3.7
  
