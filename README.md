@@ -12,8 +12,8 @@
     
     python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes 
  
- 3.测试
+ 3.测试,更改checkpoint_path为实际的路径
  
     python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes --testonly --resume --resume-folder {checkpoint_path}
-
+      
   
