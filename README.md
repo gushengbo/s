@@ -1,11 +1,11 @@
-# 训练步骤
-1. 创建环境,记得用cuda10.0版本
- 
-   conda create -n yourname python=3.7
 
-   conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
-   
-   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 1. 创建环境,记得用cuda10.0版本
+  
+    conda create -n yourname python=3.7
+ 
+    conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+    
+    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
  2.训练
  
