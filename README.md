@@ -9,12 +9,12 @@
 
 2.训练
 
-  cd models/asl/
-  
-  python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes --testonly False
+   cd models/asl/
+   
+   python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes --testonly False
 
 3.测试
 
-  python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes --testonly True --resume --resume-folder {checkpoint_path}
+   python train.py --train-data cub --test-data cub --backbone resnet12 --num-shots 1 --batch-tasks 1 --train-tasks 60000 --semantic-type class_attributes --testonly True --resume --resume-folder {checkpoint_path}
 
   
